@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#first .general{
+    padding: 3rem 18rem;
+    display: flex;
+    align-items: center;
+
+}
+#first .general .logo img{
+    width: 50%;
+
+}
+#first .general .text a{
+    padding-left: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: rgb(27, 27, 27);
+    text-decoration: none;
+}
+#first .general .text span{
+    padding-left: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: rgb(27, 27, 27);
+    text-decoration: underline !important;
+}
+#second .general{
+    background-color: #f6f6f6;
+    padding: 6rem 18rem;
+    display: flex;
+    justify-content: space-between;
+}
+#second .general .box2{
+    width: 19%;
+}
+#second .general .box1{
+    width: 78%;
+}
+#second .general .box2 img{
+    width: 100%;
+}
+#second .general .box1 h1{
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+  line-height: 70px;
+  font-weight: 400;
+  text-align: start;
+  width: 50%;
+  color: black;
+  margin-bottom: 2rem;
+}
+#second .general .box1 h1 span{
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+  line-height: 70px;
+  font-weight: 400;
+  text-align: start;
+  width: 50%;
+  color: red;
+}
+#second .general .box1 p{
+    font-size: 17px;
+    font-family: 'Playfair Display', serif;
+  line-height: 29px;
+  font-weight: 400;
+  text-align: start;
+  width: 50%;
+  color: rgb(109, 106, 106);
+  margin-bottom: 2rem;
+}
+#third .general{
+    background-color: white;
+    padding: 2rem 18rem;
+    padding-top: 6rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+#third .general .left a{
+    padding-left: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: rgb(27, 27, 27);
+    text-decoration: none;
+}
+#third .general .right a{
+    padding-left: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: rgb(27, 27, 27);
+    text-decoration: none;
+}
+#third .general1{
+    padding: 0rem 18rem;
+
+}
+#third .general .left span{
+    padding-left: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: rgb(206, 22, 22) !important;
+    text-decoration: none;
+}
+#third .general1 .imagesAndTitles{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#third .general1 .imagesAndTitles .box{
+    width: 22%;
+    padding-top: 1rem;
+    
+}
+#third .general1 .imagesAndTitles img{
+    width: 100%;
+}
+#third .general1 .imagesAndTitles .bottom a{
+    width: 100%;
+}
+#third .general1 .imagesAndTitles .box .bottom{
+    text-align: center;
+}
+#third .general1 .imagesAndTitles .box .bottom .head a{
+    padding-left: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+
+}
+#third .general1 .imagesAndTitles .box .bottom .b a{
+    padding-top: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #afafaf;
+    text-decoration: none;
+
+}
+#third .general1 .imagesAndTitles .box .bottom .b a:hover{
+    padding-top: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: red;
+    text-decoration: none;
+
+}
+#fourth .general{
+    background-color: #f6f6f6;
+    padding: 3rem 18rem;
+    display: flex;
+    justify-content: space-between;
+}
+#fourth .general .box1{
+    width: 48%;
+}
+#fourth .general .box2{
+    width: 45%;
+}
+#fourth .general .box1 img{
+    width: 100%;
+}
+#fourth .general .box2 h1{
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+  line-height: 70px;
+  font-weight: 400;
+  text-align: start;
+  color: black;
+  margin-bottom: 2rem;
+}
+#fourth .general .box1 h1 span{
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+  line-height: 70px;
+  font-weight: 400;
+  text-align: start;
+  color: red;
+}
+#fourth .general .box2 p{
+    font-size: 17px;
+    font-family: 'Playfair Display', serif;
+  line-height: 29px;
+  font-weight: 400;
+  text-align: start;
+  color: rgb(109, 106, 106);
+  margin-bottom: 2rem;
+}
